@@ -1,0 +1,20 @@
+.App {
+  margin: 10px;
+}
+
+.card{
+  margin: 5px;
+}
+
+.vehicles-card{
+  display: flex;
+  flex-wrap: wrap;
+}
+.vehicles-card>div{
+  width: 30%;
+}
+
+
+.form{
+  text-align: center;
+}
