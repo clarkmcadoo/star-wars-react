@@ -4,17 +4,27 @@
 
 .card{
   margin: 5px;
+  text-align: center;
+  display: block;
+  padding: 20px;
 }
 
 .vehicles-card{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .vehicles-card>div{
   width: 30%;
+  text-align: left;
 }
 
-
+.cardTitle{
+  background-color: white;
+  margin: 8px;
+  border-radius: 5px;
+  padding: 20px;
+}
 .form{
   text-align: center;
 }

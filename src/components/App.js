@@ -3,6 +3,7 @@ import '../styles/App.css';
 
 import Form from './Form.js';
 import Vehicles from './Vehicles.js';
+import Title from './Title.js';
 
 class App extends Component {
   constructor(props){
@@ -77,7 +78,7 @@ class App extends Component {
     
     return (
       <div className="App">
-
+          <Title/>
           <Form 
           pilot = {this.state.pilot} 
           value = {this.state.value} 

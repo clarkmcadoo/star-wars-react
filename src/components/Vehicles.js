@@ -16,7 +16,7 @@ class Vehicles extends Component {
               <h6 className="card-subtitle mb-2 text-muted">Specs</h6>
               <ul className="list-group list-group-flush">
                 <li className="list-group-item">Manufacturer: {e.manufacturer}</li>
-                <li className="list-group-item">Class: {e.class}</li>
+                <li className="list-group-item">Class: {e.vehicle_class}</li>
                 <li className="list-group-item">Passengers: {e.passengers}</li>
                 <li className="list-group-item">Crew: {e.crews}</li>
                 <li className="list-group-item">Length: {e.length}</li>

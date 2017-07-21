@@ -4,7 +4,7 @@ class Form extends Component {
   render() {
     return (
       <div className="card">
-        <h3>What's your name, pilot?</h3>
+        <h4>What's your name, pilot?</h4>
         <form onSubmit={this.props.handleSubmit}>
           <input
             type="text"
