@@ -4,7 +4,7 @@ class Vehicles extends Component {
   render() {
     let spaceShips = this.props.vehicles.map(e => {
       return (
-        <div className="card">
+                <div className="card">
           <div className="card-block">
             <h4 className="card-title">
               {e.name}

@@ -3,11 +3,11 @@ import React, { Component } from "react";
 class Title extends Component {
   render() {
     return (
-      <div className="cardTitle">
-        <h1>Star Wars Vehicles</h1>
-        <h6>
-          The vehicles of Star Wars
-        </h6>
+      <div className="jumbotron">
+        <h1 className="display-3">Star Wars</h1>
+
+        <hr className="my-4" />
+        <p>The Vehicles of Star Wars</p>
       </div>
     );
   }

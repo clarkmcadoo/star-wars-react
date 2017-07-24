@@ -75,13 +75,13 @@ class App extends Component {
     Store vehicles state in a variable.
     Map over this variable to access the values needed to render.
     */
-    
+
     return (
       <div className="App">
           <Title/>
-          <Form 
-          pilot = {this.state.pilot} 
-          value = {this.state.value} 
+          <Form
+          pilot = {this.state.pilot}
+          value = {this.state.value}
           handleInputChange = {this.handleInputChange}
           handleSubmit = {this.handleSubmit}/>
           <Vehicles vehicles={this.state.vehicles} />
@@ -91,3 +91,4 @@ class App extends Component {
 }
 
 export default App;
+

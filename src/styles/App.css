@@ -2,29 +2,49 @@
   margin: 10px;
 }
 
-.card{
+.card {
   margin: 5px;
   text-align: center;
   display: block;
   padding: 20px;
+  opacity: 0.85;
 }
 
-.vehicles-card{
+.vehicles-card {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.vehicles-card>div{
+.vehicles-card > div {
   width: 30%;
   text-align: left;
 }
 
-.cardTitle{
+.cardTitle {
   background-color: white;
   margin: 8px;
   border-radius: 5px;
   padding: 20px;
 }
-.form{
+.form {
   text-align: center;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.btn {
+  height: 28px;
+  padding: 3px 10px 5px 10px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.input{
+
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 1px solid grey;
+
 }
